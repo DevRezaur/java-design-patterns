@@ -22,9 +22,21 @@ There are about 26 design patterns currently discovered. All of them can be cate
 ### Singleton Pattern
 
 The Singleton Design Pattern is a creational pattern, whose objective is to create only one instance of a class and to
-provide only one global access point to that object. These are characteristics of singleton pattern:
+provide only one global access point to that object. These are the characteristics of singleton pattern:
 
 * Private constructor
 * Ensures only one object creation of a particular class
 * Has two variation. Lazy initialization and eager initialization
 * Thread safe
+
+### Prototype Pattern
+
+Prototype Pattern says that cloning of an existing object instead of creating new one and can also be customized as per
+the requirement.
+
+This pattern should be followed, if the cost of creating a new object is expensive and resource intensive. These are
+the characteristics of prototype pattern:
+
+* Used when the cost of creating an object is expensive or complicated
+* It hides complexities of creating objects
+* Should be used when you want to keep the number of classes in an application minimum
