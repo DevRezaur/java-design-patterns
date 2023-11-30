@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f02df6f1-0c4c-4efe-bedb-e3187c865a44" name="Changes" comment="Added PrototypePattern" />
+    <list default="true" id="f02df6f1-0c4c-4efe-bedb-e3187c865a44" name="Changes" comment="Added PrototypePattern">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/main/builder_pattern/BuilderPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/main/decorator_pattern/DecoratorPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/main/factory_pattern/FactoryPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/PrototypePattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/prototype_pattern/PrototypePattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/SingletonPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/singleton_pattern/SingletonPattern.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,6 +32,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
   <component name="ProjectId" id="2VPvlz7LNxpTcnI1yKpfjPUfOgq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -36,20 +48,63 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/rezaur-rahman/Projects/java-design-patterns",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.PrototypePattern">
-    <configuration name="PrototypePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.PrototypePattern" />
+  <component name="RunManager" selected="Application.DecoratorPattern">
+    <configuration name="BuilderPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.builder_pattern.BuilderPattern" />
       <module name="java-design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.*" />
+          <option name="PATTERN" value="main.builder_pattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DecoratorPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.decorator_pattern.DecoratorPattern" />
+      <module name="java-design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.decorator_pattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FactoryPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.factory_pattern.FactoryPattern" />
+      <module name="java-design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.factory_pattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrototypePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.prototype_pattern.PrototypePattern" />
+      <module name="java-design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.builder_pattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,11 +126,11 @@
       </method>
     </configuration>
     <configuration name="SingletonPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.SingletonPattern" />
+      <option name="MAIN_CLASS_NAME" value="main.singleton_pattern.SingletonPattern" />
       <module name="java-design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.*" />
+          <option name="PATTERN" value="main.builder_pattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,9 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DecoratorPattern" />
+        <item itemvalue="Application.FactoryPattern" />
+        <item itemvalue="Application.BuilderPattern" />
         <item itemvalue="Application.PrototypePattern" />
         <item itemvalue="Application.SingletonPattern (1)" />
-        <item itemvalue="Application.SingletonPattern" />
       </list>
     </recent_temporary>
   </component>
@@ -100,6 +157,7 @@
       <option name="presentableId" value="Default" />
       <updated>1694750686179</updated>
       <workItem from="1694750687189" duration="7887000" />
+      <workItem from="1701348941402" duration="8612000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1694755024902</created>

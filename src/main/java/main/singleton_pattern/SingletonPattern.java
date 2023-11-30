@@ -1,4 +1,4 @@
-package main;
+package main.singleton_pattern;
 
 /**
  * Driver class

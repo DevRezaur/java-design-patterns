@@ -1,4 +1,4 @@
-package main;
+package main.prototype_pattern;
 
 import java.util.ArrayList;
 import java.util.List;
